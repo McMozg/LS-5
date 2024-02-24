@@ -6,7 +6,9 @@
 a {
     text-decoration: none;
 }
-
+html, body {
+    min-height: 100%;
+}
 body {
 
 position: relative;
@@ -138,4 +140,36 @@ color: #FC40F4;
 .logo,
 .buttn {
     min-width: 175px;
+}
+
+@media screen and (max-width: 992px) {
+    .button {
+        display: none;
+    }
+    .content {
+        padding: 50px 20px;
+    }
+    .heading {
+        font-size: 40px;
+    }
+    .text {
+        margin-bottom: 40px;
+    }
+    .elipse
+    {
+        margin-top: 30px ;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .nav {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 592px) {
+   body, .top {
+    padding: 20 px;
+   }
+  
 }
